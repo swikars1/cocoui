@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <div class="card-grid">
+    <div class="card">
+        <div class="card-header">
             <img  :src="imageUrl" />
-            <div>{{ label }}</div>
+            <a href="#">{{ label }}</a>
         </div>
         <div v-html="desc" />
     </div>
